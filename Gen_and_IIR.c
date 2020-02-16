@@ -9,11 +9,6 @@
 #define SIZE (128)
 #define PI (3.14159265358979323846)
 
-int32_t round_up(int64_t x) {
-
-	return (x + (1LL << 30) >> 30);
-}
-
 int32_t flt2fixd(double x)
 {
 	if (x >= 1)
